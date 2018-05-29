@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp">
+
+            <RelativeLayout
+                android:id="@+id/imageLayout"
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:layout_marginRight="200dp"
+                android:background="@drawable/custom_border"
+                android:padding="16dp"
+                android:layout_marginLeft="16dp"
+
+                >
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="160dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/profile_image"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="profile_name"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/born_date"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/profile_image"
+                    android:layout_marginTop="15dp"
+                    android:text="born_year" />
+
+                <TextView
+                    android:id="@+id/line"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/born_date"
+
+                    android:layout_centerHorizontal="true"
+                    android:text="-" />
+
+                <TextView
+                    android:layout_width="52dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/profile_image"
+                    android:layout_alignTop="@+id/born_date"
+                    android:text="death_year" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:layout_marginLeft="150dp"
+                android:padding="16dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim nisi at nulla lobortis, vel cursus metus pellentesque. Fusce convallis lectus non facilisis porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. " />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/imageLayout"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim nisi at nulla lobortis, vel cursus metus pellentesque. Fusce convallis lectus non facilisis porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ante purus, vehicula et feugiat quis, consequat in nunc. Donec vestibulum aliquam quam nec commodo. Vivamus laoreet quam vitae nisi maximus suscipit. Integer sodales lacinia neque ac convallis. Cras sagittis risus urna, eget eleifend purus dapibus et. Nunc in mauris id lorem gravida interdum consequat et ligula. Pellentesque commodo nulla iaculis lobortis luctus. Praesent gravida laoreet nibh eleifend venenatis. Quisque enim diam, tempor at velit consequat, tincidunt gravida lorem. Suspendisse potenti. Mauris scelerisque luctus ex, sed ornare lorem vehicula vel. Sed vel est venenatis, blandit augue in, dignissim lorem." />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

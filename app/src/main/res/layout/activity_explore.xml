@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ExploreActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/back"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/backexplore"/>
+    <ImageView
+        android:id="@+id/ivMainActivityExplore"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/tvMainActivityExplore"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What to Know About the Miraculous True Story Behind Dunkirk"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"/>
+    <TextView
+        android:id="@+id/tvDescActivityExplore"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What to Know About the Miraculous True Story Behind DunkirkWhat to Know About the Miraculous True Story Behind DunkirkWhat to Know About the Miraculous True Story Behind DunkirkWhat to Know About the Miraculous True Story Behind DunkirkWhat to Know About the Miraculous True Story Behind DunkirkWhat to Know About the Miraculous True Story Behind DunkirkWhat to Know About the Miraculous True Story Behind DunkirkWhat to Know About the Miraculous True Story Behind DunkirkWhat to Know About the Miraculous True Story Behind Dunkirk"/>
+</LinearLayout></android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "646559043891",
+    "firebase_url": "https://ww2database2.firebaseio.com",
+    "project_id": "ww2database2",
+    "storage_bucket": "ww2database2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646559043891:android:87e7a31e280652aa",
+        "android_client_info": {
+          "package_name": "com.example.mert.ww2database"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646559043891-hqaldm1fh254af9g1rorufakcq3813ea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mert.ww2database",
+            "certificate_hash": "81fb88a43a81ca27d5cd40b47ca698af86a0d557"
+          }
+        },
+        {
+          "client_id": "646559043891-oj3cau4annmm08nlutfm14mtbgesij05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMQ27zOkVaRjmxj_HZlZwpV9iwGDKEGmY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646559043891-oj3cau4annmm08nlutfm14mtbgesij05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_margin="10dp"
+        android:layout_height="150dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="463dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivEqCategoryImage"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_launcher" />
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorText"></View>
+
+            <TextView
+                android:id="@+id/tvEqCategoryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:textColor="@color/colorText"
+                android:text="Category Name" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

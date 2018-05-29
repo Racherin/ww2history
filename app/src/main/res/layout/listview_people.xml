@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:textColor="#2d2d2d"
+        android:id="@+id/tvPeopleNameListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERSON_NAME"
+        android:textSize="18sp"
+        android:layout_marginLeft="100dp"/>
+
+    <ImageView
+        android:background="@drawable/round_shape"
+        android:scaleType="center"
+        android:id="@+id/ivProfilePhotoListView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="5dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvPeopleJobListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPeopleNameListView"
+        android:layout_marginTop="6dp"
+        android:text="TYPE"
+        android:textColor="#2d2d2d"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:id="@+id/tvPeopleCountryListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/tvPeopleJobListView"
+        android:text="COUNTRY"
+        android:textColor="#2d2d2d" />
+</RelativeLayout>

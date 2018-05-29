@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Aircraft"
+        android:textSize="18dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_aircraft"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Ships"
+        android:textSize="18dp"
+
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_ships"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Vehicles"
+        android:textSize="18dp"
+
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_vehicles"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Weapons"
+        android:textSize="18dp"
+
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_weapons"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

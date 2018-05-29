@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/back"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/backprofile"/>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarid"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:elevation="0dp"
+        android:background="#FAFAFA"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_profile"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp">
+
+                <ImageView
+
+ android:id="@+id/profileImage"                   android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:padding="10dp"
+                    android:src="@mipmap/ic_launcher" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="6">
+
+                    <TextView
+                        android:id="@+id/profileName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Name" />
+
+                    <TextView
+                        android:id="@+id/profileCountry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Country" />
+
+                    <TextView
+                        android:id="@+id/profileCategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Category" />
+
+                    <TextView
+                        android:id="@+id/profileGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Gender" />
+
+                    <TextView
+                        android:id="@+id/profileBorn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Born" />
+
+                    <TextView
+                        android:id="@+id/profileDied"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Died" />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/profileDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description about profile."
+            android:layout_margin="16dp"
+            android:textColor="@color/colorText"/>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

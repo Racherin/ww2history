@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Settings"
+        android:id="@+id/menu_settings"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title="Invite Friends"
+        android:id="@+id/menu_invite"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title="Get Help"
+        android:id="@+id/menu_gethelp"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title="Give us Feedback"
+        android:id="@+id/menu_feedback"
+        app:showAsAction="never"
+        ></item>
+    <item
+        android:title="Donate"
+        android:id="@+id/menu_donate"
+        app:showAsAction="always"
+        android:icon="@drawable/donateicon"
+        ></item>
+
+</menu>
