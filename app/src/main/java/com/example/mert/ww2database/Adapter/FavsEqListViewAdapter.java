@@ -37,6 +37,11 @@ public class FavsEqListViewAdapter extends BaseAdapter {
     public long getItemId(int position) {
         return techizatDetays.get(position).getId();
     }
+     @Override
+    public long getCharId(int position) {
+        return techizatDetays.get(position).getId();
+    }
+
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
